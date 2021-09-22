@@ -151,11 +151,11 @@ function Home({user}) {
                                                 </div>
                                                 </a>
                                             </div>
-                                            <a href="/location">
                                             <div class="col-md-1 col-sm-1 col-xs-12">
+                                            <a href="/location">
                                                 <button class="btn btn-primary" style={{backgroundColor: "#089bcc",color:"#fff"}}>Search</button>
+                                                </a>
                                             </div>
-                                            </a>
                                         </div>
                                     </form>
                                 </div>

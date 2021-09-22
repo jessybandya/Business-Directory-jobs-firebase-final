@@ -156,11 +156,11 @@ function Home1({user}) {
                                                 </div>
                                                 </a>
                                             </div>
-                                            <a href={`/location1/${auth?.currentUser?.uid}`}>
                                             <div class="col-md-1 col-sm-1 col-xs-12">
+                                            <a href={`/location1/${auth?.currentUser?.uid}`}>
                                                 <button class="btn btn-primary" style={{backgroundColor: "#089bcc",color:"#fff"}}>Search</button>
-                                            </div>
-                                            </a>
+                                                </a> 
+                                             </div>
                                         </div>
                                     </form>
 
