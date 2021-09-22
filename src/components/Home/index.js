@@ -141,7 +141,7 @@ function Home({user}) {
                                         </div>
                                         <div class="col-md-5 col-sm-5 col-xs-12"> 
                                             <label class="sr-only" for="location">Location</label>
-                                            <a href="location">
+                                            <a href="/location">
                                             <div class="input-group mb-2">
                                                 <div class="input-group-prepend">
                                                     <div class="input-group-text">
