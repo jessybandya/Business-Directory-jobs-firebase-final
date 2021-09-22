@@ -108,8 +108,8 @@ function Home({user}) {
                                 </div>
                                 <div style={{flexDirection: "column"}} class="col-md-10 col-sm-10 col-xs-10 searching-form">
 
-                                <form class="search-form search-yellowpageskenya">
-                                        <div class="form-row">
+                                <form class=" search-yellowpageskenya">
+                                        <div  class="form-row">
                                             <div class="col-md-5 col-sm-5 col-xs-12"> 
                                                 <label class="sr-only" for="lookingfor">What You Looking For</label>
                                                 <div class="input-group mb-2"><div class="input-group-prepend">
@@ -141,16 +141,21 @@ function Home({user}) {
                                         </div>
                                         <div class="col-md-5 col-sm-5 col-xs-12"> 
                                             <label class="sr-only" for="location">Location</label>
+                                            <a href="location">
                                             <div class="input-group mb-2">
                                                 <div class="input-group-prepend">
                                                     <div class="input-group-text">
                                                         <span><AddLocationIcon /></span>
-                                                    </div></div> <input type="text" class="form-control" name="where" onClick={()=> alert("not yet working")} id="location" placeholder="Location"/>
+                                                    </div></div> 
+                                                    <input type="text" class="form-control" name="where"  id="location" placeholder="Location"/>
                                                 </div>
+                                                </a>
                                             </div>
+                                            <a href="/location">
                                             <div class="col-md-1 col-sm-1 col-xs-12">
-                                                <button class="btn btn-primary" onClick={()=> alert("not yet working")} style={{backgroundColor: "#089bcc",color:"#fff"}}>Search</button>
+                                                <button class="btn btn-primary" style={{backgroundColor: "#089bcc",color:"#fff"}}>Search</button>
                                             </div>
+                                            </a>
                                         </div>
                                     </form>
                                 </div>

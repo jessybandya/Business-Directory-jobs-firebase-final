@@ -146,16 +146,21 @@ function Home1({user}) {
                                         </div>
                                         <div class="col-md-5 col-sm-5 col-xs-12"> 
                                             <label class="sr-only" for="location">Location</label>
+                                            <a href={`/location1/${auth?.currentUser?.uid}`}>
                                             <div class="input-group mb-2">
                                                 <div class="input-group-prepend">
                                                     <div class="input-group-text">
                                                         <span><AddLocationIcon /></span>
-                                                    </div></div> <input type="text" class="form-control" name="where" onClick={()=> alert("not yet working")} id="location" placeholder="Location"/>
+                                                    </div></div> 
+                                                    <input type="text" class="form-control" name="where"  id="location" placeholder="Location"/>
                                                 </div>
+                                                </a>
                                             </div>
+                                            <a href={`/location1/${auth?.currentUser?.uid}`}>
                                             <div class="col-md-1 col-sm-1 col-xs-12">
-                                                <button class="btn btn-primary" onClick={()=> alert("not yet working")} style={{backgroundColor: "#089bcc",color:"#fff"}}>Search</button>
+                                                <button class="btn btn-primary" style={{backgroundColor: "#089bcc",color:"#fff"}}>Search</button>
                                             </div>
+                                            </a>
                                         </div>
                                     </form>
 

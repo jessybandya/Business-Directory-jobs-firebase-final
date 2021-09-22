@@ -28,6 +28,8 @@ import Blog from './components/Blog';
 import Registerjob from './components/Registerjob';
 import Allpostsjobs from './components/Allpostsjobs';
 import Searchresults from './components/SearchResults';
+import Locationsearch from './components/Locationsearch';
+
 import Main from "../src/components/chatBot/Main"
 
 
@@ -115,6 +117,8 @@ function App() {
         <Route exact path= "/categories" component={Categories} />
         <Route exact path= "/categories1/:uid" component={Categories} />
 
+        <Route exact path= "/location" component={Locationsearch} />
+        <Route exact path= "/location1/:uid" component={Locationsearch} />
 
 
          <Route exact path= "/notifications/:uid" component={Notifications} />

@@ -193,7 +193,7 @@ form {
     margin-top: 0em;
 }
 .hero-image .hero-image-slide .image-holder .searching-form .search-yellowpageskenya .form-row {
-    background: rgba(0,0,0,.4);
+    /* background: rgba(0,0,0,.4); */
     padding: 22px;
     border-radius: 10px;
 }
